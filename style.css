@@ -1,0 +1,50 @@
+#container {
+    display:flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    width:100vp;
+}
+
+.class {
+    align-self: center;
+    width: 80%;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name>*{
+    margin:0px;
+}
+
+#name>p{
+    font-size: small;
+    justify-self: self-start;
+}
+
+img {
+    height: 140px;
+    border: 2px solid;
+    margin-right:20px
+}
+
+h3,.date {
+    margin-bottom: 5px;
+}
+
+.content p,ul {
+    margin-top: 5px;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.content h4 {
+    margin-top:5px;
+    margin-bottom: 5px;
+}
